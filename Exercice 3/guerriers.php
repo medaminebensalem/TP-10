@@ -1,6 +1,4 @@
 <?php
-
-
 class Guerrier {
     private $id;
     private $nom;

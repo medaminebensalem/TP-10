@@ -40,16 +40,20 @@ $result = $conn->query("SELECT * FROM exercice ORDER BY id DESC");
 <h2>Liste des exercices</h2>
 <table border="1">
     <tr><th>ID</th><th>Titre</th><th>Auteur</th><th>Date</th><th>Actions</th></tr>
-    <?php while ($row = $result->fetch_assoc()) : ?>
-        <tr>
-            <td><?= $row['id'] ?></td>
-            <td><?= htmlspecialchars($row['titre']) ?></td>
-            <td><?= htmlspecialchars($row['auteur']) ?></td>
-            <td><?= $row['date_creation'] ?></td>
-            <td>
-                <a href="modifier.php?id=<?= $row['id'] ?>">Modifier</a> |
-                <a href="supprimer.php?id=<?= $row['id'] ?>" onclick="return confirm('Confirmer la suppression ?');">Supprimer</a>
-            </td>
-        </tr>
-    <?php endwhile; ?>
+    <?php
+$rows = $result->fetch_all(MYSQLI_ASSOC);
+for ($i = 0; $i < count($rows); $i++) :
+?>
+    <tr>
+        <td><?= $rows[$i]['id'] ?></td>
+        <td><?= htmlspecialchars($rows[$i]['titre']) ?></td>
+        <td><?= htmlspecialchars($rows[$i]['auteur']) ?></td>
+        <td><?= $rows[$i]['date_creation'] ?></td>
+        <td>
+            <a href="modifier.php?id=<?= $rows[$i]['id'] ?>">Modifier</a> |
+            <a href="supprimer.php?id=<?= $rows[$i]['id'] ?>" onclick="return confirm('Confirmer la suppression ?');">Supprimer</a>
+        </td>
+    </tr>
+<?php endfor; ?>
+
 </table>

@@ -34,7 +34,7 @@ if (isset($_POST['attaquant']) && isset($_POST['cible'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>jeux</title>
 </head>
 <body>
 <h2>Créer un guerrier</h2>

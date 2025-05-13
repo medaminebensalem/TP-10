@@ -5,7 +5,7 @@ $message = '';
 if ($erreur == 1) {
     $message = "Veuillez saisir un login et un mot de passe.";
 } elseif ($erreur == 2) {
-    $message = "Erreur de login/mot de passe.";
+    $message = "Erreur de login.";
 } elseif ($erreur == 3) {
     $message = "Vous avez été déconnecté du service.";
 }

@@ -2,13 +2,11 @@
 session_start();
 require 'utilisateur.php';
 
-
 if (isset($_GET['afaire']) && $_GET['afaire'] == 'deconnexion') {
     session_destroy();
     header("Location: login.php?erreur=3");
     exit();
 }
-
 
 $login = isset($_POST['login']) ? trim($_POST['login']) : '';
 $password = isset($_POST['password']) ? trim($_POST['password']) : '';
