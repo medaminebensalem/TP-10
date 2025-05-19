@@ -16,21 +16,21 @@ Ce projet est une application web simple de connexion et déconnexion utilisant 
 ### 1. Page de connexion
 Affiche un formulaire demandant le login et le mot de passe.
 
-![Connexion](connexion.png)
+![Connexion](/Exercice1/connexion.png)
 
 ---
 
 ### 2. Accueil après connexion
 Affiche un message personnalisé de bienvenue et un lien de déconnexion.
 
-![Bienvenue](bienvenue.png)
+![Bienvenue](/Exercie1/bienvenue.png)
 
 ---
 
 ### 3. Message après déconnexion
 Affiche un message d’alerte rouge indiquant que l'utilisateur a été déconnecté.
 
-![Déconnexion](deconnexion.png)
+![Déconnexion](/Exercic1/deconnexion.png)
 
 ---
 
