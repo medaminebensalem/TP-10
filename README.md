@@ -32,7 +32,10 @@ variable vaut « deconnexion », on détruira la session et on redirigera avec l
 page login.php
 Modifiez enfin votre page login.php pour qu'elle affiche ce message en cas d'erreur 3 : « Vous avez été
 déconnecté du service ».
+
+![Bienvenue](.Exercice1/bienvenue.png)
 <h1>Exercice 2</h1>
+
 On souhaite développer une application qui permet à l'utilisateur d'effectuer les différentes opérations
 CRUD sur la table "exercice": exercice (id , titre, auteur, date_creation)
 <h1>Exercice 3</h1>
