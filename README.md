@@ -1,5 +1,5 @@
 <h1>Exercice 1</h1>
-# Système de Connexion en PHP
+ Système de Connexion en PHP
 
 Ce projet est une application web simple de connexion et déconnexion utilisant PHP et HTML. Elle permet aux utilisateurs de se connecter avec un identifiant et un mot de passe, et de se déconnecter proprement.
 
@@ -16,21 +16,21 @@ Ce projet est une application web simple de connexion et déconnexion utilisant 
 ### 1. Page de connexion
 Affiche un formulaire demandant le login et le mot de passe.
 
-![Connexion](/Exercice1/connexion.png)
+![Connexion](./Exercice1/connexion.png)
 
 ---
 
 ### 2. Accueil après connexion
 Affiche un message personnalisé de bienvenue et un lien de déconnexion.
 
-![Bienvenue](/Exercie1/bienvenue.png)
+![Bienvenue](./Exercie1/bienvenue.png)
 
 ---
 
 ### 3. Message après déconnexion
 Affiche un message d’alerte rouge indiquant que l'utilisateur a été déconnecté.
 
-![Déconnexion](/Exercic1/deconnexion.png)
+![Déconnexion](./Exercic1/deconnexion.png)
 
 ---
 
