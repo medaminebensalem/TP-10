@@ -33,12 +33,15 @@ page login.php
 Modifiez enfin votre page login.php pour qu'elle affiche ce message en cas d'erreur 3 : « Vous avez été
 déconnecté du service ».
 
+![Connexion](./images/connexion.png)
+
 ![Bienvenue](./images/bienvenue.png)
 
 <h1>Exercice 2</h1>
 
 On souhaite développer une application qui permet à l'utilisateur d'effectuer les différentes opérations
 CRUD sur la table "exercice": exercice (id , titre, auteur, date_creation)
+![ex2](./images/ex2.png)
 <h1>Exercice 3</h1>
 L’objectif de cet exercice est de créer un mini jeu de combat. Il s’agit de mettre en place
 d’abord une conception en termes de classes à créer et de tables à créer puis de coder les
@@ -54,6 +57,8 @@ de dégâts, le personnage est mort (on le supprimera alors de la base de donné
 Un personnage doit pouvoir :
 —Frapper un autre personnage ;
 —recevoir des dégâts.
+
+![ex3](./images/ex3.png)
 
 
 
