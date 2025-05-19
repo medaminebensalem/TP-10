@@ -42,3 +42,12 @@ Affiche un message d’alerte rouge indiquant que l'utilisateur a été déconne
 
 ## Structure du projet
 
+│
+├── login.php # Formulaire de connexion
+├── accueil.php # Page affichée après connexion
+├── capture des images pour README
+├── utilisateur
+├── validation
+
+
+
