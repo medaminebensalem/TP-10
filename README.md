@@ -33,7 +33,8 @@ page login.php
 Modifiez enfin votre page login.php pour qu'elle affiche ce message en cas d'erreur 3 : « Vous avez été
 déconnecté du service ».
 
-![Bienvenue](.Exercice1/bienvenue.png)
+![Bienvenue](./images/bienvenue.png)
+
 <h1>Exercice 2</h1>
 
 On souhaite développer une application qui permet à l'utilisateur d'effectuer les différentes opérations
