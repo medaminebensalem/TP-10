@@ -41,7 +41,7 @@ déconnecté du service ».
 
 On souhaite développer une application qui permet à l'utilisateur d'effectuer les différentes opérations
 CRUD sur la table "exercice": exercice (id , titre, auteur, date_creation)
-![Connexion](./images/ex2.png)
+![ex2](./images/ex2.png)
 <h1>Exercice 3</h1>
 L’objectif de cet exercice est de créer un mini jeu de combat. Il s’agit de mettre en place
 d’abord une conception en termes de classes à créer et de tables à créer puis de coder les
@@ -58,7 +58,7 @@ Un personnage doit pouvoir :
 —Frapper un autre personnage ;
 —recevoir des dégâts.
 
-![Connexion](./images/ex3.png)
+![ex3](./images/ex3.png)
 
 
 
